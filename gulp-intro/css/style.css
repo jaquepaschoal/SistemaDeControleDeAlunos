@@ -15,13 +15,20 @@ body .inpt-pesquisar {
   margin-top: 50px;
 }
 
+body .filter {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 100px;
+  margin-top: 30px;
+}
+
 body .tbl-alunos {
-  margin-top: 50px;
+  margin: 30px 0;
 }
 
 body .tbl-alunos th {
   padding: px;
-  color: white;
+  color: #FFFFFF;
   background: #949494;
 }
 
@@ -30,13 +37,15 @@ body .tbl-alunos tr:nth-child(even) {
 }
 
 body .tbl-alunos tr:nth-child(odd) {
-  background: #FFF;
+  background: #FFFFFF;
 }
 
-body .tbl-alunos .btn {
+body .tbl-alunos a {
+  color: #737373;
   width: 35px;
   height: 35px;
-  padding: 0px 5px;
+  padding: 5px 8px;
+  margin: 0 5px;
   border: 1px solid #000000;
   background: #DFDFDF;
   border-top-left-radius: 10px;
@@ -46,10 +55,22 @@ body .tbl-alunos .btn {
   text-align: center;
 }
 
-body .tbl-alunos .btn a {
-  color: #737373;
+body .tbl-alunos a:hover {
+  background: #737373;
+  color: #DFDFDF;
+  transition: .3s ease-out;
 }
 
 body footer {
-  background: black;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background: #A55656;
+  color: #FFFFFF;
+}
+
+body footer .options {
+  padding: 0 10px;
+  color: #FFFFFF;
+  text-decoration: none;
 }
