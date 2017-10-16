@@ -3,10 +3,13 @@ body {
   .header {
     height: 100px;
     background: #A55656;
+    max-width: 100%;
+    
+    .logo {
+      margin: 10px 50px;
+    }
   }
-  .logo {
-    margin: 10px 50px;
-  }
+ 
 
   .inpt-pesquisar {
     margin-top: 50px;

@@ -5,9 +5,10 @@ body {
 body .header {
   height: 100px;
   background: #A55656;
+  max-width: 100%;
 }
 
-body .logo {
+body .header .logo {
   margin: 10px 50px;
 }
 
