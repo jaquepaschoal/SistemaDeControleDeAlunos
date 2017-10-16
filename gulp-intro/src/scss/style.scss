@@ -3,8 +3,7 @@ body {
   .header {
     height: 100px;
     background: #A55656;
-    max-width: 100%;
-    
+
     .logo {
       margin: 10px 50px;
     }
@@ -27,12 +26,20 @@ body {
     tr:nth-child(odd) {background: #FFF}
 
     .btn {
-    
-      padding: 0px;
+ 
+      width: 35px;
+      height: 35px;
+      padding: 0px 5px;
+
       border: 1px solid #000000;
       background: #DFDFDF;
       border-top-left-radius: 10px;
       border-bottom-right-radius: 10px;
+
+      font-size: 20px;
+      text-align: center;
+      color: #000000;
+
     }
   }
 
