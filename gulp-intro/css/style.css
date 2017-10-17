@@ -1,10 +1,28 @@
+.title {
+  padding: 20px;
+  color: #FFFFFF;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  margin-top: 80px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 body {
   background: #E5E5E5;
 }
 
 body .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   height: 100px;
   background: #A55656;
+  color: #FFFFFF;
 }
 
 body .header .logo {
