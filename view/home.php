@@ -30,6 +30,7 @@
                   <th>Nome</th>
                   <th>Número de Matrícula</th>
                   <th>Ano Ingresso</th>
+                  <th>Curso</th>
                   <th>Documentos</th>
                 </tr>
               </thead>
@@ -40,6 +41,7 @@
                         echo "<td>{$dado->nome}</td>";
                         echo "<td>{$dado->RA}</td>";
                         echo "<td>{$dado->ano_ingresso}</td>";
+                        echo "<td>{$dado->sigla}</td>";
                         echo "<td>";
                           echo "<a class='document-btn' title='Página Pessoal' href='{$dado->pag_pessoal}'target='_blank'><i class='fa fa-user-o' ></i></a> ";
                           echo "<a class='document-btn' title='TCC' href='#' target='_blank'><i class='fa fa-book' ></i></a>";
@@ -55,7 +57,11 @@
       </div>
        
        <div class="row">
-            <footer class="page-footer"><a class="options" href="view/login.html">Administrador</a> | <a class="options" href="#">Àrea do Aluno</a></footer>
+            <footer class="page-footer">
+              <?php
+                echo"<a class='options' href='index.php?controle=LoginControle&metodo=openLogin'>Administrador</a> | <a class='options' href='#'>Àrea do Aluno</a>";
+              ?>
+            </footer>
         </div>
     </div>
    

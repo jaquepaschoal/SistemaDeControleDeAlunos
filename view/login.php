@@ -42,7 +42,9 @@
 
       <div class="row">
           <footer class="page-footer">
-            <a class="options" href="home.php"><i class="fa fa-chevron-left"></i>Voltar</a>
+            <?php
+              echo"<a class='options' href='index.php?controle=AlunoControle&metodo=listarAlunos'><i class='fa fa-chevron-left'></i>Voltar</a>";
+            ?>
           </footer>
       </div>
   </div>
