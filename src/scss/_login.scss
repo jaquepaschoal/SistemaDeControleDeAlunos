@@ -1,0 +1,56 @@
+.title {
+  padding: 20px;
+  color: $cor-s;
+
+  }
+
+  @media (max-width: 425px) 
+  {
+   
+    .title {
+      display: none;
+    }
+
+  }
+
+.box {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background: $cor-s;
+  box-shadow: 0px 4px 4px $cor-shadow;
+
+    .conteudo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+
+      img {
+        margin-bottom: 20px ;
+        height: 150px;
+        width: 150px;
+      }
+
+      .inpt-login {
+        width: 80%;
+      }
+
+      .btn-login { 
+        text-transform: uppercase;
+        font-size: 12px;
+        padding: 5px 0;
+        border-radius: 3px;
+        border: 1px solid $cor-btn2;
+        color: $cor-s;
+        background: $cor-btn2;
+        width: 100px;
+      }
+    }
+}
+
+
