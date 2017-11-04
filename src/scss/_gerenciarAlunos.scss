@@ -27,24 +27,30 @@ th:last-child {
   }
 }
 
-.btn-gerenciar {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 12px;
+.test {
+  display: flex;
+  margin-bottom: 80px;
 
-  padding: 10px 10px;
-  border-radius: 3px;
-  border: 1px solid $cor-btn2;
+  .btn-gerenciar {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+  
+    padding: 10px 10px;
+    border-radius: 3px;
+    border: 1px solid $cor-btn2;
+  
+    color: $cor-s;
+    background: $cor-btn2;
+    box-shadow:inset 0px 4px 4px $cor-shadow;
 
+    i { 
+      padding: 0 8px 0 2px;
+    }
 
-  color: $cor-s;
-  background: $cor-btn2;
-  box-shadow:inset 0px 4px 4px $cor-shadow;
-
- 
-
-  &:hover {
-    text-decoration: none;
-    color:$cor-s
- }
+    &:hover {
+      text-decoration: none;
+      color:$cor-s
+   }
+  }
 }

@@ -67,9 +67,9 @@
         </div>
       </div>
       
-      <div class="row">
+      <div class="row test">
         <?php
-          echo"<a class='btn-gerenciar' href='index.php?controle=LoginControle&metodo=openHome'><i class='fa fa-plus' aria-hidden='true'></i>Novo Aluno</a>";
+          echo"<a class='btn-gerenciar col-md-offset-1' href='index.php?controle=LoginControle&metodo=openHome'><i class='fa fa-plus' aria-hidden='true'></i>Novo Aluno</a>";
         ?>
       </div>
      

@@ -182,7 +182,12 @@ th:last-child {
   color: red;
 }
 
-.btn-gerenciar {
+.test {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.test .btn-gerenciar {
   text-align: center;
   text-transform: uppercase;
   font-size: 12px;
@@ -194,7 +199,11 @@ th:last-child {
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.btn-gerenciar:hover {
+.test .btn-gerenciar i {
+  padding: 0 8px 0 2px;
+}
+
+.test .btn-gerenciar:hover {
   text-decoration: none;
   color: #FFFFFF;
 }
