@@ -34,7 +34,9 @@
                     <div class="form-group inpt-login">
                       <input type="password" class="form-control"  placeholder="Senha">
                     </div>
-                    <button class="btn-login " type="submit">Entrar</button>
+                    <?php
+                      echo"<a class='btn-login' href='index.php?controle=LoginControle&metodo=openHome'>Entrar</a>";
+                    ?>
               </div>
               
             </form>

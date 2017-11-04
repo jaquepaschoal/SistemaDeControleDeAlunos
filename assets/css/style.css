@@ -82,6 +82,7 @@ label {
 }
 
 .box .conteudo .btn-login {
+  text-align: center;
   text-transform: uppercase;
   font-size: 12px;
   padding: 5px 0;
@@ -90,6 +91,112 @@ label {
   color: #FFFFFF;
   background: #585353;
   width: 100px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box .conteudo .btn-login:hover {
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu .block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.menu .block .box-title {
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: #949494;
+  text-align: center;
+}
+
+.menu .block .description {
+  text-align: center;
+  margin: 25px;
+}
+
+.menu .block .btn-login {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 5px 0;
+  border-radius: 3px;
+  border: 1px solid #585353;
+  color: #FFFFFF;
+  background: #585353;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100px;
+}
+
+.menu .block .btn-login:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 425px) {
+  .menu {
+    flex-direction: column;
+  }
+  .menu .block {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+
+.logout {
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+th:last-child {
+  text-align: center;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.actions .edit, .actions .delete {
+  font-size: 18px;
+  color: #585353;
+  cursor: pointer;
+}
+
+.actions .edit:hover {
+  color: blue;
+}
+
+.actions .delete:hover {
+  color: red;
+}
+
+.btn-gerenciar {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 10px 10px;
+  border-radius: 3px;
+  border: 1px solid #585353;
+  color: #FFFFFF;
+  background: #585353;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-gerenciar:hover {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 body {

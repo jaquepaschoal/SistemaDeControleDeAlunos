@@ -7,4 +7,8 @@ class LoginControle {
     require_once "view/login.php";
   }
 
+
+  function openHome() {
+    require_once "view/adm_home.php";
+  }
 }

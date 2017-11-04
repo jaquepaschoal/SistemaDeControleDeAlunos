@@ -1,6 +1,8 @@
 @import "variables.scss";
 @import "bootstrap.scss";
 @import "login.scss";
+@import "admHome.scss";
+@import "gerenciarAlunos.scss";
 
 
 
@@ -45,8 +47,10 @@ body {
         background-color: $cor-th;
         color: $cor-s;
         text-transform: uppercase;
+ 
+        
       }
-      
+
       .document-btn {
         color: $cor-i;
         width: 35px;

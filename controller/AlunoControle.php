@@ -9,4 +9,7 @@ class AlunoControle {
     require_once "view/home.php";
   }
 
+  function gerenciarAlunos() {
+    require_once "view/gerenciar_alunos.php";
+  }
 }

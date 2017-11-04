@@ -44,7 +44,7 @@
                         echo "<td>{$dado->sigla}</td>";
                         echo "<td>";
                           echo "<a class='document-btn' title='Página Pessoal' href='{$dado->pag_pessoal}'target='_blank'><i class='fa fa-user-o' ></i></a> ";
-                          echo "<a class='document-btn' title='TCC' href='#' target='_blank'><i class='fa fa-book' ></i></a>";
+                          echo "<a class='document-btn' title='TCC' href='{$dado->tcc}' target='_blank'><i class='fa fa-book' ></i></a>";
                           echo "<a class='document-btn' title='Sistema' href='#' target='_blank'><i class='fa fa-laptop' ></i></a>";
                           echo "<a class='document-btn' title='Folha de Aprovação' href='#' target='_blank'><i class='fa fa-file-text' ></i></a>";
                         echo "</td>";

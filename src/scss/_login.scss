@@ -41,6 +41,7 @@
       }
 
       .btn-login { 
+        text-align: center;
         text-transform: uppercase;
         font-size: 12px;
         padding: 5px 0;
@@ -49,6 +50,11 @@
         color: $cor-s;
         background: $cor-btn2;
         width: 100px;
+        box-shadow:inset 0px 4px 4px $cor-shadow;
+
+        &:hover {
+           text-decoration: none;
+        }
       }
     }
 }

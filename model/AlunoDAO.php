@@ -9,7 +9,7 @@ class alunoDAO extends conexao
 
     function buscarTodosAlunos()
     {
-        $sql = "SELECT a.RA, a.nome, c.sigla,a.pag_pessoal,a.ano_ingresso FROM aluno a INNER JOIN curso c ON (a.id_curso = c.id_curso)";
+        $sql = "SELECT a.RA, a.nome, c.sigla,a.pag_pessoal,a.ano_ingresso,a.tcc FROM aluno a INNER JOIN curso c ON (a.id_curso = c.id_curso)";
         try
         {
             $f = $this->db->prepare($sql);
